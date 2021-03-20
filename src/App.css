@@ -1,0 +1,52 @@
+h1 {
+    color: rgb(74, 74, 250);
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    left: 450px;
+}
+
+h2 {
+    color: rgb(250, 74, 83);
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    left: 360px;
+    top: 100px;
+}
+
+button {
+    position: absolute;
+    left: 45%;
+    top: 30%;
+}
+
+.grid {
+    border-color: black;
+    border:black 1px solid;
+    height: 20px;
+    width: 20px;
+}
+
+.container {
+    font-size: 2px;
+    min-height: 0px;
+    width: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-gap: 0px;
+
+}
+
+#player-game-board {
+    position: absolute;
+    left: 15%;
+    top: 40%;
+}
+
+#computer-game-board {
+    position: absolute;
+    left: 60%;
+    top: 40%;
+}
+
+
